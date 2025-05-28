@@ -1,0 +1,10 @@
+^D:\CODING\PROJECTS\CPLUS ENGINE RAYS LKIDAR\EXAMPLES\BUILD\_DEPS\ASSIMP-SUBBUILD\CMAKEFILES\27116FDC1E5721991E10FD31E5770D66\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild" "-BD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/assimp-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE099153-E028-38CA-95ED-DD1E8648C23E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ModelLoadingExample</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ModelLoadingExample.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ModelLoadingExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ModelLoadingExample.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ModelLoadingExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ModelLoadingExample.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ModelLoadingExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ModelLoadingExample.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ModelLoadingExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders...	Copying models...	Copying GLFW DLL...</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/shaders" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/models"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/models" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/models"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/glfw3.dll "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/glfw3.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\gothboi\AppData\Local\Temp\glew_lib\glew32s.lib;glfw3.lib;opengl32.lib;_deps\assimp-build\lib\Debug\assimp-vc143-mtd.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;_deps\assimp-build\contrib\zlib\Debug\zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022;C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/$(Configuration);C:/Users/gothboi/AppData/Local/Temp/glew_lib;C:/Users/gothboi/AppData/Local/Temp/glew_lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/ModelLoadingExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Debug/ModelLoadingExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders...	Copying models...	Copying GLFW DLL...</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/shaders" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/models"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/models" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/models"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/glfw3.dll "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/glfw3.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\gothboi\AppData\Local\Temp\glew_lib\glew32s.lib;glfw3.lib;opengl32.lib;_deps\assimp-build\lib\Release\assimp-vc143-mt.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;_deps\assimp-build\contrib\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022;C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/$(Configuration);C:/Users/gothboi/AppData/Local/Temp/glew_lib;C:/Users/gothboi/AppData/Local/Temp/glew_lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/ModelLoadingExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/Release/ModelLoadingExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders...	Copying models...	Copying GLFW DLL...</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/shaders" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/models"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/models" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/models"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/glfw3.dll "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/glfw3.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\gothboi\AppData\Local\Temp\glew_lib\glew32s.lib;glfw3.lib;opengl32.lib;_deps\assimp-build\lib\MinSizeRel\assimp-vc143-mt.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;_deps\assimp-build\contrib\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022;C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/$(Configuration);C:/Users/gothboi/AppData/Local/Temp/glew_lib;C:/Users/gothboi/AppData/Local/Temp/glew_lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/ModelLoadingExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/MinSizeRel/ModelLoadingExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\environment;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\include\graphics;C:\libraries\glfw-3.3.8.bin.WIN64\glfw-3.4.bin.WIN64\include;\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\dependencies\glew-2.1.0\include\..;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\external\glm;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\..\dependencies\stb;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\code\..\include;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying shaders...	Copying models...	Copying GLFW DLL...</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/shaders" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/shaders"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/models"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/models" "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/models"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/glfw3.dll "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/glfw3.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\gothboi\AppData\Local\Temp\glew_lib\glew32s.lib;glfw3.lib;opengl32.lib;_deps\assimp-build\lib\RelWithDebInfo\assimp-vc143-mt.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;_deps\assimp-build\contrib\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022;C:/libraries/glfw-3.3.8.bin.WIN64/glfw-3.4.bin.WIN64/lib-vc2022/$(Configuration);C:/Users/gothboi/AppData/Local/Temp/glew_lib;C:/Users/gothboi/AppData/Local/Temp/glew_lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/ModelLoadingExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/RelWithDebInfo/ModelLoadingExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples" "-BD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build" --check-stamp-file "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCXXCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeRCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples" "-BD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build" --check-stamp-file "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCXXCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeRCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples" "-BD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build" --check-stamp-file "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCXXCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeRCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples" "-BD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build" --check-stamp-file "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeCXXCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeRCCompiler.cmake;D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\4.0.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\ModelLoadingExample.cpp" />
+    <ClCompile Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\src\graphics\Shader.cpp" />
+    <ClCompile Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\src\environment\SceneObject.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\ZERO_CHECK.vcxproj">
+      <Project>{B09952E6-1636-3304-831B-FD78B4FA3170}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\code\assimp.vcxproj">
+      <Project>{5A2227A2-DFB7-311E-9429-36CF8ECD674F}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{B07A00B4-CDFB-324B-B46D-70E248EF3836}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

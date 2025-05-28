@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/assimp-populate"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/27116fdc1e5721991e10fd31e5770d66/assimp-populate.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/860303ab78f3349b8fad101c7b778c28/assimp-populate-complete.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-build.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-configure.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-download.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-install.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-patch.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-test.rule"
+		},
+		{
+			"file" : "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/2b4e30fcd672d1261f73df115bcd1976/assimp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"assimp-populate"
+		],
+		"name" : "assimp-populate"
+	}
+}

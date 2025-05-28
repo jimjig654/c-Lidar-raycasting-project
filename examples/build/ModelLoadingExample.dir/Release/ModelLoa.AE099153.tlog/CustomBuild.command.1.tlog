@@ -1,0 +1,10 @@
+^D:\CODING\PROJECTS\CPLUS ENGINE RAYS LKIDAR\EXAMPLES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples" "-BD:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build" --check-stamp-file "D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

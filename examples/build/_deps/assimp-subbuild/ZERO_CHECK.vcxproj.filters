@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-subbuild\CMakeFiles\27116fdc1e5721991e10fd31e5770d66\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1A035AEA-EEB8-35A0-AB58-9DA041C04E1C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

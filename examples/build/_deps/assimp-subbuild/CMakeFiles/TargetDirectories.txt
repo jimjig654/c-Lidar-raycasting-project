@@ -1,0 +1,3 @@
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/assimp-populate.dir
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-subbuild/CMakeFiles/ZERO_CHECK.dir

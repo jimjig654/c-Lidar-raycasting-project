@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/CMakeLists.txt
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/assimp.pc.in
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/cmake-modules/FindPkgMacros.cmake
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/cmake-modules/PrecompiledHeader.cmake
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/cmake-modules/assimp-plain-config.cmake.in
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/cmake-modules/cmake_uninstall.cmake.in
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/include/assimp/config.h.in
+D:/CODING/PROJECTS/Cplus ENGINE RAYS LKIDAR/examples/build/_deps/assimp-src/revision.h.in

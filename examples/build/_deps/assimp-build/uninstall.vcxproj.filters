@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\CMakeFiles\c477a05b972ced765864f1788efdada0\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\CODING\PROJECTS\Cplus ENGINE RAYS LKIDAR\examples\build\_deps\assimp-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CD514C85-05FF-3E59-8018-DE5BED2E4652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
